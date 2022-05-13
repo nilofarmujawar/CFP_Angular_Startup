@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'HelloWorld';
+  name = "Nilofar";
+  title = "HelloWorld";
+  imgURL="../assets/bridgelabz.png"
+  userName : String="";
+  onchangeImg(){
+    console.log(this.name);
+
+  }
+  onchangeCall(){
+    this.name="Mujawar";
+    console.log(this.userName);
+  }
+  
 }
